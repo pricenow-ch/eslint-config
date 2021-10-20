@@ -38,9 +38,9 @@ module.exports = {
         includeExports: true,
       },
     ],
-    "no-unused-vars": 0, // disable because @typescript-eslint/no-unused-vars does the job
-    "no-redeclare": 0, // disable because @typescript-eslint/no-redeclare does the job
-    "@typescript-eslint/no-redeclare": 0, // disable because it also complains in types
+    "no-unused-vars": "off", // disable because @typescript-eslint/no-unused-vars does the job
+    "no-redeclare": "off", // disable because @typescript-eslint/no-redeclare does the job
+    "@typescript-eslint/no-redeclare": "off", // disable because it also complains in types
     "@typescript-eslint/no-unused-vars": 2,
     "no-undef": 0,
     "no-extra-parens": 0, // disable unnecessary parentheses
