@@ -1,0 +1,30 @@
+{
+  "name": "@pricenow/eslint-config",
+  "version": "1.0.0",
+  "description": "Base eslint config for all pricenow projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pricenow-ch/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "pricenow"
+  ],
+  "author": "Yannick Stachelscheid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pricenow-ch/eslint-config/issues"
+  },
+  "homepage": "https://github.com/pricenow-ch/eslint-config#readme",
+  "peerDependencies": {
+    "@typescript-eslint/parser": "^2.3.2",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^4.1.2"
+  }
+}
