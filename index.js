@@ -41,7 +41,7 @@ module.exports = {
     "no-unused-vars": "off", // disable because @typescript-eslint/no-unused-vars does the job
     "no-redeclare": "off", // disable because @typescript-eslint/no-redeclare does the job
     "@typescript-eslint/no-redeclare": "off", // disable because it also complains in types
-    "@typescript-eslint/no-unused-vars": 2,
+    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }],
     "no-undef": 0,
     "no-extra-parens": 0, // disable unnecessary parentheses
     "no-import-assign": 2, // disallow assigning to imported bindings
@@ -50,6 +50,7 @@ module.exports = {
     "no-dupe-class-members": 0,
     "require-atomic-updates": 0,
     "no-inner-declarations": 0,
+    "no-self-compare": 'error',
 
     // react specific rules
     "react/prop-types": "off",

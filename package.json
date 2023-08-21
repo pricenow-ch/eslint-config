@@ -1,6 +1,6 @@
 {
   "name": "@pricenow/eslint-config",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Base eslint config for all pricenow projects",
   "main": "index.js",
   "scripts": {
